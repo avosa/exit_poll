@@ -1,13 +1,14 @@
-defmodule Poller.Choices do
-alias __MODULE__
+defmodule Poller.Choice do
+  alias __MODULE__
+  
   defstruct(
     id: nil,
     description: nil,
     party: nil
   )
-
+  
   def new(id, description, party) do
-    %Choices{
+    %Choice{
       id: id,
       description: description,
       party: party
