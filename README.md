@@ -13,16 +13,16 @@ To run this application you need the following installed:
   
 ## Development 
 To run the app in development mode run the following commands:
-## Step 1 - Data 
+### Step 1 - Data 
 1. ```cd ~/exit_poll/poller```
 2. ```mix deps.get```
 
-## Step 2 - Models
+### Step 2 - Models
 1. ```cd ~/exit_poll/poller_dal```
 2. ```mix deps.get```
 3. ```mix ecto.create && mix ecto.migrate```
 
-## Step three - Phoenix
+### Step 3 - Phoenix
 1. ```cd ~/exit_poll/poller_phx```
 2. ```mix deps.get```
 3. ```mix phx.server``` or ```iex -S mix phx.server```
