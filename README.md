@@ -1,5 +1,6 @@
 # Abstruct
 This is an Exit Poll App written in [Elixir](https://elixir-lang.org/) and [Phoenix Framework](https://www.phoenixframework.org/) to demonstrate Concurrency, Fault tolerance, Availability and the many benefits that comes in handy while using ErlangOTP/Elixir!
+The project has been split into three mix projects two of which have been used as dependancies to the Phoenix framework.
 Everything is easily extendable so don't hesitate to add your own needed functions to it.
 
 # Getting started
@@ -12,10 +13,19 @@ To run this application you need the following installed:
   
 ## Development 
 To run the app in development mode run the following commands:
-1. ```cd ~/exit_poll/poller_phx```
+## Step 1 - Data 
+1. ```cd ~/exit_poll/poller```
+2. ```mix deps.get```
+
+## Step 2 - Models
+1. ```cd ~/exit_poll/poller_dal```
 2. ```mix deps.get```
 3. ```mix ecto.create && mix ecto.migrate```
-4. ```mix phx.server``` or ```iex -S mix phx.server```
+
+## Step three - Phoenix
+1. ```cd ~/exit_poll/poller_phx```
+2. ```mix deps.get```
+3. ```mix phx.server``` or ```iex -S mix phx.server```
 
 
 ## Contributing
