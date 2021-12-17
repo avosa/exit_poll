@@ -1,5 +1,5 @@
 # Abstruct
-This is an Exit Poll App written in [Elixir](https://elixir-lang.org/) and [Phoenix Framework](https://www.phoenixframework.org/) to demonstrate Concurrency, Fault tolerance, Availability and the many benefits that comes in handy with Erlang/Elixir!
+This is an Exit Poll App written in [Elixir](https://elixir-lang.org/) and [Phoenix Framework](https://www.phoenixframework.org/) to demonstrate Concurrency, Fault tolerance, Availability and the many benefits that comes in handy with Erlang OTP/Elixir!
 Everything is easily extendable so don't hesitate to add your own needed functions to it.
 
 
