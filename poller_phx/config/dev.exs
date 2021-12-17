@@ -68,8 +68,8 @@ config :phoenix, :plug_init_mode, :runtime
 
 config :poller_dal, PollerDal.Repo,
   database: "poller_#{Mix.env()}",
-  username: "knowthen",
-  password: "",
+  username: "postgres",
+  password: "postgres",
   hostname: "localhost"
   
 config :poller_dal, ecto_repos: [PollerDal.Repo]
