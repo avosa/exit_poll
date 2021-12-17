@@ -2,7 +2,7 @@
 This is an Exit Poll App written in [Elixir](https://elixir-lang.org/) and [Phoenix Framework](https://www.phoenixframework.org/) to demonstrate Concurrency, Fault tolerance, Availability and the many benefits that comes in handy with ErlangOTP/Elixir!
 Everything is easily extendable so don't hesitate to add your own needed functions to it.
 
-
+# Getting started
 ## Prerequisites 
 To run this application you need the following installed:
   * Erlang/OTP preferably OTP 20 plus
@@ -10,7 +10,7 @@ To run this application you need the following installed:
   * Phoenix Framework (Built on Elixir)
   * Postgres 9 plus
   
-# Getting started
+## Development 
 To run the app in development mode run the following commands:
 1. ```cd ~/exit_poll/poller_phx```
 2. ```mix deps.get```
@@ -18,7 +18,7 @@ To run the app in development mode run the following commands:
 4. ```mix phx.server``` or ```mix -S phx.server```
 
 
-# Contributing
+## Contributing
 1. Fork it ( https://github.com/[my-github-username]/exit_poll/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
