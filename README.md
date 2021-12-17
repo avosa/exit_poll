@@ -15,7 +15,7 @@ To run the app in development mode run the following commands:
 1. ```cd ~/exit_poll/poller_phx```
 2. ```mix deps.get```
 3. ```mix ecto.create && mix ecto.migrate```
-4. ```mix phx.server``` or ```mix -S phx.server```
+4. ```mix phx.server``` or ```iex -S mix phx.server```
 
 
 ## Contributing
