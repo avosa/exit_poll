@@ -8,7 +8,7 @@ Everything is easily extendable so don't hesitate to add your own needed functio
 To run this application you need the following installed:
   * Erlang OTP preferably OTP 20
   * Elixir preferable 1.10
-  * Phoenix Framework (Built on Elixir)
+  * Phoenix Framework
   * Postgres 9 plus
   
 ## 2.2 Development 
