@@ -25,7 +25,8 @@ To run the app in development mode run the following commands:
 ### 2.2.3 Step 3 - Phoenix 
 1. ```cd ~/exit_poll/poller_phx```
 2. ```mix deps.get```
-3. ```mix phx.server``` or ```iex -S mix phx.server```
+3. ```cd assets && npm install```
+4. ```mix phx.server``` or ```iex -S mix phx.server```
 
 
 ## 3.0 Contributing
