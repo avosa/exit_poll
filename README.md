@@ -6,7 +6,7 @@ Everything is easily extendable so don't hesitate to add your own needed functio
 # 2.0 Getting started
 ## 2.1 Prerequisites 
 To run this application you need the following installed:
-  * Erlang OTP preferably 20
+  * Erlang OTP preferably 22
   * Elixir preferable 1.10
   * Phoenix Framework
   * Postgres 9 plus
@@ -30,7 +30,7 @@ To run the app in development mode run the following commands:
 
 
 ## 3.0 Contributing
-1. Fork it ( https://github.com/[my-github-username]/exit_poll/fork )
+1. Fork the repo ( https://github.com/[my-github-username]/exit_poll/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
