@@ -5,7 +5,7 @@ Everything is easily extendable so don't hesitate to add your own needed functio
 
 # Getting started
 ## Prerequisites 
-To run this application you need the following installed:
+To run this application you need the following installed on your PC or Mac:
   * Erlang OTP preferably 22
   * Elixir preferable 1.10
   * Phoenix Framework
